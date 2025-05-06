@@ -5,7 +5,7 @@
 *.slo
 *.lo
 *.o
-*.obj
+#*.obj Don't ignore 3d models
 
 # Precompiled Headers
 *.gch
@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+/.vs/DeferredRenderer/FileContentIndex/*.vsidx
+/.vs/DeferredRenderer/v17
+/DeferredRenderer/*.user
